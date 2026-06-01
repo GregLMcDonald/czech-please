@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Czech, Please</title>
+    <script>
+      // SPA fallback for GitHub Pages: deep links 404 on the static host, so
+      // redirect to the app root, preserving the requested path in the hash
+      // for the in-app hash router to pick up.
+      (function () {
+        var base = '/czech-please/'
+        var l = window.location
+        var path = l.pathname
+        var rest = path.indexOf(base) === 0 ? path.slice(base.length) : ''
+        var target = l.origin + base + (rest ? '#/' + rest : '') + (l.search || '')
+        l.replace(target)
+      })()
+    </script>
+  </head>
+  <body>
+    Redirecting…
+  </body>
+</html>

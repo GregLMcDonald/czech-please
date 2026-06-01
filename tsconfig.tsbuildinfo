@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/data.ts","./src/main.tsx","./src/router.ts","./src/types.ts","./src/vite-env.d.ts","./src/components/about.tsx","./src/components/copybutton.tsx","./src/components/dictionary.tsx","./src/components/grammar.tsx","./src/components/phrases.tsx","./src/components/virtuallist.tsx","./src/components/wordview.tsx"],"errors":true,"version":"5.9.3"}

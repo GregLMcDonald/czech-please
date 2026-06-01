@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="12" fill="#fff"/>
+  <rect y="32" width="64" height="32" fill="#d7141a"/>
+  <path d="M0 0 L34 32 L0 64 Z" fill="#11457e"/>
+  <text x="38" y="26" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#11324d" text-anchor="middle">Č</text>
+</svg>

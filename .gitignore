@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+.DS_Store
+
+# Raw pipeline downloads are a re-fetchable build cache (some are 100MB+).
+# They are kept locally between runs but not committed; sources/licenses are
+# documented in LICENSES/. The generated src/data/*.json IS committed.
+raw/*
+!raw/.gitkeep
