@@ -11,6 +11,9 @@
   --radius: 14px;
   --tabbar-h: 58px;
   --topbar-h: 52px;
+  /* Light theme only — keep UA-rendered controls (inputs, selects) light even
+     when the device is in system dark mode. */
+  color-scheme: light;
   --safe-b: env(safe-area-inset-bottom, 0px);
   --safe-t: env(safe-area-inset-top, 0px);
 }
@@ -675,25 +678,3 @@ button {
   margin-bottom: 8px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0f1722;
-    --card: #18222e;
-    --ink: #e8edf3;
-    --muted: #93a0af;
-    --line: #283544;
-    --accent: #5aa6ef;
-    --blue: #7fb6f0;
-  }
-  .search-input,
-  .picker select {
-    color: var(--ink);
-  }
-  .gtable thead th {
-    background: #1d2935;
-  }
-  .chip.active {
-    background: var(--blue);
-    color: #0f1722;
-  }
-}
